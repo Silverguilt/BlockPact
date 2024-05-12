@@ -56,9 +56,58 @@
           "city": "Anytown",
           "country": "USA"
         },
-        "tags": ["tag1", "tag2", "tag3"]
+        "tags": [
+          "tag1",
+          "tag2",
+          "tag3"
+        ]
       },
       "nonce": 117,
+      "difficulty": 2
+    },
+    {
+      "timestamp": "2024-05-12T19:46:24.980Z",
+      "id": 5,
+      "previousHash": "008c854e8fd725db480d4e4726df969a9d86fbf5809402898fb486212284689c",
+      "hash": "00e62c6854fb0c494d97fa8fe5f8dc44342199af660875c09e3ad1ec4da8090a",
+      "data": {
+        "message": "This is block from 3001"
+      },
+      "nonce": 155,
+      "difficulty": 2
+    },
+    {
+      "timestamp": "2024-05-12T19:47:07.797Z",
+      "id": 6,
+      "previousHash": "00e62c6854fb0c494d97fa8fe5f8dc44342199af660875c09e3ad1ec4da8090a",
+      "hash": "00f4c71d64b5a41ebabeb1573d3b59dd350365c2189d38bce62bde41fd93bcff",
+      "data": {
+        "name": "John Doe",
+        "age": 30,
+        "email": "john@example.com",
+        "address": {
+          "street": "123 Main St",
+          "city": "Anytown",
+          "country": "USA"
+        },
+        "tags": [
+          "tag1",
+          "tag2",
+          "tag3"
+        ]
+      },
+      "nonce": 292,
+      "difficulty": 2
+    },
+    {
+      "timestamp": "2024-05-12T19:48:26.542Z",
+      "id": 7,
+      "previousHash": "00f4c71d64b5a41ebabeb1573d3b59dd350365c2189d38bce62bde41fd93bcff",
+      "hash": "00aa833bab8c62dbc1bf0f2a431ee1ce3365c5be9aaf6a3e309c35219daeaade",
+      "data": {
+        "message": "This is block from 3002"
+      },
+      "nonce": 149,
       "difficulty": 2
     }
   ],

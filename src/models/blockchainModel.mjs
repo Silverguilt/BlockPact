@@ -88,7 +88,7 @@ class Blockchain {
 
       do {
         nonce++;
-        timestamp = Date.now();
+        timestamp = new Date().toISOString(); // Convert timestamp to ISO string
         hash = this.calculateHash(previousBlock, data, nonce, timestamp);
       } while (!this.isValidHash(hash));
 
@@ -97,15 +97,15 @@ class Blockchain {
 
       console.log(`Adding block with ID: ${id}`); // Log the ID of the new block
 
-      const newBlock = new Block(
-        timestamp,
-        id, // Assign block ID
-        previousBlock.hash,
-        hash,
-        data,
-        nonce,
-        this.difficulty
-      );
+      const newBlock = new Block({
+        timestamp: timestamp, // Pass timestamp as string
+        id: id, // Assign block ID
+        previousHash: previousBlock.hash,
+        hash: hash,
+        data: data,
+        nonce: nonce,
+        difficulty: this.difficulty,
+      });
 
       this.chain.push(newBlock);
 
