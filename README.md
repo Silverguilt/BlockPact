@@ -64,3 +64,8 @@ Example Usage
 1. Start the server using `npm run node-1`.
 2. Use Postman to send requests to the server's endpoints.
 3. Create new blocks and retrieve existing blocks for testing.
+
+To perform the __tests__
+   ```
+   npx vitest
+   ```
