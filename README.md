@@ -1,4 +1,4 @@
-# BlockPact4
+# BlockPact
 
 BlockPact4 is a simple blockchain application built with Node.js. It allows users to interact with a blockchain network, create new blocks, and retrieve existing blocks. The application is designed to demonstrate basic blockchain concepts such as block creation, mining, and validation.
 
@@ -34,6 +34,28 @@ Postman is recommended for testing the application's endpoints. Below are the en
 - GET `/api/v1/blocks`: Retrieve all blocks in the blockchain.
 - GET `/api/v1/blocks/:id`: Retrieve a block by its ID.
 - POST `/api/v1/blocks`: Create a new block. Send block data as JSON in the request body.
+   Data could be either a simple object:
+  ```
+  {
+     "data": "This is block from 3001"
+  }
+  ```
+  or a complex object:
+  ```
+  {
+     "data": {
+        "name": "John Doe",
+        "age": 30,
+        "email": "john@example.com",
+        "address": {
+           "street": "123 Main St",
+           "city": "Anytown",
+           "country": "USA"
+        },
+        "tags": ["tag1", "tag2", "tag3"]
+        }
+  }
+  ```
 
 Make sure to replace `:id` with the ID of the block you want to retrieve.
 
