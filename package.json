@@ -1,0 +1,28 @@
+{
+  "name": "blockpact4",
+  "version": "1.0.0",
+  "description": "The BlockPact API server. This server is responsible for handling all the requests from the client and interacting with the blockchain.",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node --experimental-modules server.mjs",
+    "dev": "nodemon --experimental-modules server.mjs",
+    "node-1": "set PORT=3001 && node --experimental-modules server.mjs",
+    "node-2": "set PORT=3002 && node --experimental-modules server.mjs",
+    "node-3": "set PORT=3003 && node --experimental-modules server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^1.6.0",
+    "vitest": "^1.6.0"
+  }
+}

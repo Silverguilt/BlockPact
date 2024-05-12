@@ -1,0 +1,66 @@
+{
+  "chain": [
+    {
+      "timestamp": "2024-05-12T17:43:29.764Z",
+      "id": 0,
+      "previousHash": "0",
+      "hash": "0000000000",
+      "data": "Genesis Block",
+      "nonce": 0,
+      "difficulty": 2
+    },
+    {
+      "timestamp": 1715535834830,
+      "id": 1,
+      "previousHash": "0000000000",
+      "hash": "00e525543fce1f0cdf16cca3c34885c36e1198d403508df6813809a8f5ce001e",
+      "data": {
+        "message": "This is block from 3001"
+      },
+      "nonce": 153,
+      "difficulty": 2
+    },
+    {
+      "timestamp": 1715535835550,
+      "id": 2,
+      "previousHash": "00e525543fce1f0cdf16cca3c34885c36e1198d403508df6813809a8f5ce001e",
+      "hash": "00f738c6e10db00272bb4ecb45c9911e1120cce47dc4efab65742dad0c2c2fd2",
+      "data": {
+        "message": "This is block from 3001"
+      },
+      "nonce": 267,
+      "difficulty": 2
+    },
+    {
+      "timestamp": 1715535836209,
+      "id": 3,
+      "previousHash": "00f738c6e10db00272bb4ecb45c9911e1120cce47dc4efab65742dad0c2c2fd2",
+      "hash": "00002ae586ca584fe3c972955aa73fa791c92334fc23004728cc624f5eabe1c3",
+      "data": {
+        "message": "This is block from 3001"
+      },
+      "nonce": 88,
+      "difficulty": 2
+    },
+    {
+      "timestamp": 1715535849967,
+      "id": 4,
+      "previousHash": "00002ae586ca584fe3c972955aa73fa791c92334fc23004728cc624f5eabe1c3",
+      "hash": "008c854e8fd725db480d4e4726df969a9d86fbf5809402898fb486212284689c",
+      "data": {
+        "name": "John Doe",
+        "age": 30,
+        "email": "john@example.com",
+        "address": {
+          "street": "123 Main St",
+          "city": "Anytown",
+          "country": "USA"
+        },
+        "tags": ["tag1", "tag2", "tag3"]
+      },
+      "nonce": 117,
+      "difficulty": 2
+    }
+  ],
+  "currentId": 1
+}
