@@ -17,6 +17,7 @@ BlockPact4 is a simple blockchain application built with Node.js. It allows user
 
    ```bash
    npm install
+   ```
 
 Starting the Server
 
@@ -24,6 +25,7 @@ To start the server, run the following command:
 
    ```bash
    npm run node-1
+   ```
 
 Testing with Postman
 
